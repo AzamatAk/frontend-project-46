@@ -1,20 +1,22 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/AzamatAk/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/AzamatAk/frontend-project-46/actions)
+[![github-check](https://github.com/AzamatAk/frontend-project-46/workflows/github-check/badge.svg)](https://github.com/AzamatAk/frontend-project-46/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/13d6ed0b6c6ba197e61c/maintainability)](https://codeclimate.com/github/AzamatAk/frontend-project-46/maintainability)
 
-## Description:
+**Description:**
 
 Difference Finder is a program that determines the difference between two data structures.
 
-## Utility Features:
+Utility Features:
 
--Support for different input formats: YAML, JSON
--Output in plain text, stylish, and JSON format
+- Support for different input formats: YAML, JSON
+- Output in plain text, stylish, and JSON format
 
-## Technology stack:
+**Technology stack:**
 
 JavaScript, Git, GitHub, GitHub Actions (CI), ESLint, Lodash, Commander.js, Js-yaml, CodeClimate, Asciinema.
 
-## Demonstration:
+**Demonstration:**
 
 Gendiff demonstration of JSON files
 [![asciicast](https://asciinema.org/a/M2YJ4Zx1jWtufivnemKelxWfA.svg)](https://asciinema.org/a/M2YJ4Zx1jWtufivnemKelxWfA)
