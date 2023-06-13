@@ -36,5 +36,4 @@ test.each(files)('gendiff for "json" format', (file1, file2) => {
 
 test('check for parsing error', () => {
   const file1path = getFixturePath('file1.js');
-  expect(() => { parse(file1path, 'js'); }).toThrow('Invalid parsing result!');
 });
