@@ -14,7 +14,7 @@ const buildTree = (data1, data2) => {
     switch (true) {
       case (_.isPlainObject(value1) && _.isPlainObject(value2)):
         return { key, type: 'nested', children: buildTree(value1, value2) };
-        case (_.isEqual(value1, value2)):
+      case (_.isEqual(value1, value2)):
         return { key, type: 'unchanged', children: value1 };
       case (_.has(data1, key) && _.has(data2, key)): {
         return { key, type: 'changed', children: { old: value1, new: value2 } };

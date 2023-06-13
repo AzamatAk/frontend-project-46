@@ -6,9 +6,9 @@ const parsingConfig = {
   '.yml': YAML.parse,
 };
 
-export default (Data, Extension) => {
+export default (data, extension) => {
   try {
-    return parsingConfig[Extension](Data);
+    return parsingConfig[extension](data);
   } catch (e) {
     throw new Error(`Invalid parsing '${parsingConfig[extension](data)}' result!`);
   }
